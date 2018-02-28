@@ -21,16 +21,7 @@ class ViewController: UIViewController {
                 display.text = buttonText
             }
             userIsCurrentlyTyping = true
-        }
-        /*
-        if userIsCurrentlyTyping {
-            let currentText = display.text!
-            display.text = currentText + buttonText
-        } else {
-            display.text = buttonText
-            userIsCurrentlyTyping = true
-        }
- */
+        }    
     }
     
     var displayValue: Double {
